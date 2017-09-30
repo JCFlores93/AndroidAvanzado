@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="module_intentservicedemo" default="compile.module.intentservicedemo">
+  <dirname property="module.intentservicedemo.basedir" file="${ant.file.module_intentservicedemo}"/>
+  
+  <property name="module.jdk.home.intentservicedemo" value="${jdk.home.1.8}"/>
+  <property name="module.jdk.bin.intentservicedemo" value="${jdk.bin.1.8}"/>
+  <property name="module.jdk.classpath.intentservicedemo" value="jdk.classpath.1.8"/>
+  
+  <property name="compiler.args.intentservicedemo" value="-encoding UTF-8 -source 1.7 -target 1.7 ${compiler.args}"/>
+  
+  <property name="intentservicedemo.output.dir" value="${module.intentservicedemo.basedir}/build/classes/production/IntentServiceDemo"/>
+  <property name="intentservicedemo.testoutput.dir" value="${module.intentservicedemo.basedir}/build/classes/test/IntentServiceDemo"/>
+  
+  <path id="intentservicedemo.module.bootclasspath">
+    <!-- Paths to be included in compilation bootclasspath -->
+  </path>
+  
+  <path id="intentservicedemo.module.production.classpath">
+    <path refid="${module.jdk.classpath.intentservicedemo}"/>
+  </path>
+  
+  <path id="intentservicedemo.runtime.production.module.classpath">
+    <pathelement location="${intentservicedemo.output.dir}"/>
+  </path>
+  
+  <path id="intentservicedemo.module.classpath">
+    <path refid="${module.jdk.classpath.intentservicedemo}"/>
+    <pathelement location="${intentservicedemo.output.dir}"/>
+  </path>
+  
+  <path id="intentservicedemo.runtime.module.classpath">
+    <pathelement location="${intentservicedemo.testoutput.dir}"/>
+    <pathelement location="${intentservicedemo.output.dir}"/>
+  </path>
+  
+  
+  <patternset id="excluded.from.module.intentservicedemo">
+    <patternset refid="ignored.files"/>
+  </patternset>
+  
+  <patternset id="excluded.from.compilation.intentservicedemo">
+    <patternset refid="excluded.from.module.intentservicedemo"/>
+  </patternset>
+  
+  
+  <target name="compile.module.intentservicedemo" depends="compile.module.intentservicedemo.production,compile.module.intentservicedemo.tests" description="Compile module IntentServiceDemo"/>
+  
+  <target name="compile.module.intentservicedemo.production" depends="register.custom.compilers" description="Compile module IntentServiceDemo; production classes"/>
+  
+  <target name="compile.module.intentservicedemo.tests" depends="register.custom.compilers,compile.module.intentservicedemo.production" description="compile module IntentServiceDemo; test classes" unless="skip.tests"/>
+  
+  <target name="clean.module.intentservicedemo" description="cleanup module">
+    <delete dir="${intentservicedemo.output.dir}"/>
+    <delete dir="${intentservicedemo.testoutput.dir}"/>
+  </target>
+</project>

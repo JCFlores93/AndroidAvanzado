@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "808602680335",
+    "firebase_url": "https://fcmdemo-167601.firebaseio.com",
+    "project_id": "fcmdemo-167601",
+    "storage_bucket": "fcmdemo-167601.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:808602680335:android:a954721edaf0a2b7",
+        "android_client_info": {
+          "package_name": "pe.cibertec.fcmdemo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "808602680335-auhkdpflaqobnco3dmkt05or38stnv0v.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB84j21yhh24zs05WJ2rLC9Ce3r-aJKo_g"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

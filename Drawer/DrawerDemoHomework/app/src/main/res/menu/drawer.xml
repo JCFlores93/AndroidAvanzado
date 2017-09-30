@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_item_1"
+            android:checked="true"
+            android:title="Option 1"
+            android:icon="@mipmap/ic_launcher_round"/>
+        <item android:id="@+id/nav_item_2"
+            android:checked="false"
+            android:title="Option 2"
+            android:icon="@mipmap/ic_launcher_round"/>
+       <item android:id="@+id/nav_item_3"
+        android:checked="false"
+        android:title="Option 3"
+        android:icon="@mipmap/ic_launcher_round"/>
+        <item android:id="@+id/nav_item_4"
+        android:checked="false"
+        android:title="Option 4"
+        android:icon="@mipmap/ic_launcher_round"/>
+        <item android:id="@+id/nav_item_5"
+        android:checked="false"
+        android:title="Option 5"
+        android:icon="@mipmap/ic_launcher_round"/>
+
+    </group>
+</menu>

@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Notifications</string>
+
+    <string-array name="options">
+        <item>Basic</item>
+        <item>Basic with back stack</item>
+        <item>With actions</item>
+        <item>Big text style</item>
+    </string-array>
+</resources>

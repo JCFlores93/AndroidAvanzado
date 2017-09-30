@@ -1,0 +1,57 @@
+github.com/cesarynga
+
+builder sirve para aumentar caracteristicas .
+pordremos regresar al activity anterior con
+StackBuilder
+
+
+Declarar al padre sólo funciona desde el api 16
+
+ <activity android:name=".ResultActivity"
+            android:parentActivityName=".MainActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity">
+            </meta-data>
+        </activity>
+
+
+Al crear un componente debemos agragarlo al manifest
+
+nuevo atributo remember(integer)
+
+si bloqueamos la pantalla por mas de 5 segundos ocurre un ANR
+Android
+Not
+Response
+
+
+
+handler :
+*Ejecutar tarea en el futuro , con un determinado delay
+*
+
+doInBackground : no se realiza en la pantalla principal
+
+
+
+visibility : 
+gone - es como si no exitiera 
+invisible - reacciona
+
+para cada AsynTask se debe instanciar cada vez que se utiliza
+
+las consultas a bases de datos sería mejor asyntask - depende del activity
+
+Todos los componentes corren en el hilo principal.
+logger acceder a la base de datos de manera asincrona.
+service como componente de aplicacion : se ejecuta en hilo principal , pero debemos crear 
+un hilo.
+intent service nos permite correr en background .
+content provider
+broadcast
+
+
+http://stackoverflow.com/questions/16388577/android-refreshing-fragment-view-after-asynctask
+
+
