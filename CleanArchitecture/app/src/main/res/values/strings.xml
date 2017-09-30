@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">CleanArchitecture</string>
+
+    <string name="exception_generic">An error has occurred</string>
+    <string name="exception_network">No internet connection</string>
+
+</resources>

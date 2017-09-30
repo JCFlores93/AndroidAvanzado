@@ -1,0 +1,50 @@
+1)Registrar un usuario en el response nos devuelve 
+	No hay validación de usuario.
+2)Luego del login se obtiene el user-token
+3)pasar el token para la tarea
+objectid es un string
+4)datetime es milisegunos , necesitamos un long 
+
+@POST("News/{objectId}")
+Pasar el token(@Header("user-token"),@Path())
+
+diferentes entidaddes para enviar en el body
+
+
+crear un paquete request en 
+	net
+	LoginBody
+	mandando solamente el login,password y el token.
+
+presenter intent service 
+es un activity o fragment 
+o caso de uso en el presenter 
+
+por donde empezar clena architecture
+la capa de dominio datasource
+
+la carpeta test no implementa las pruebas con la UI
+androidTest si implementa pruebas con la UI.
+
+
+crear Test . doble clic sobre la clase y test
+
+eliminar registro de usuario , sólo a partir del login.
+
+Hacer pruebas.
+
+FIZZ BUZZ
+
+mockito nos permite verificar las llamadas y crear services para el 
+
+3 casos de prueba .
+
+ya no hay pantallla de registro , debe tener una pantalla de login
+con login podemos hacer las demas consultas, no hay pruebas de UI , Analytics,
+ni redes sociales.
+
+https://firebase.google.com/
+
+MixPanel
+
+https://api.backendless.com/AC6D7008-261B-EEDB-FFF2-CB324366E900/25C3B188-DF06-03F0-FF1E-BD96B0768500/users/register

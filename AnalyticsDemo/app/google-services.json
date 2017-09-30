@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "757360182491",
+    "firebase_url": "https://analyticsdemo-ff224.firebaseio.com",
+    "project_id": "analyticsdemo-ff224",
+    "storage_bucket": "analyticsdemo-ff224.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:757360182491:android:5ec82e3d67a57606",
+        "android_client_info": {
+          "package_name": "pe.cibertec.analyticsdemo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "757360182491-ecc7cak61b8f463ief1tlr4bplh0r32n.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCZtnlIRyguqmMDVLGlMHvSYJGfm_79IBE"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
