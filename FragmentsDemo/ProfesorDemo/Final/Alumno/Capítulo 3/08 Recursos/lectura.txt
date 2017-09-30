@@ -1,0 +1,2 @@
+https://www.youtube.com/watch?v=Gimo5cZler8
+http://developer.android.com/guide/components/fragments.html

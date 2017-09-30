@@ -1,0 +1,3 @@
+https://jersey.java.net/
+https://spring.io/understanding/REST
+https://spring.io/guides/tutorials/bookmarks/

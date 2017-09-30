@@ -1,0 +1,21 @@
+COMPONENTES DE APP ANDROID 
+
+1.ACTIVITY
+2.CONTENT PROVIDER
+3.BROADCAST RECEIVER
+4.SERVICE
+
+ACTIVITY
+*Tiene UI
+*Interacción del usuario con la app
+*Controla toda la pantalla
+
+FRAGMENT
+*Controla una parte de la pantalla
+*Está ligado a un activity
+*
+
+
+//Implementar que aparezca al empezar.
+//Y que el item seleccionado se marque de otro color.
+
