@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="C:\Users\USUARIO\.android\build-cache\726b95b5b5b4839d45953f11ad32dea1fd0743b4\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.0"
+        sha1="8fc41bcf43f3f1d4d9e8bbfd451f362f245249de">
+        <dex dex="D:\DesarrolloApurata\apurata_android\ApurataApplication\app\build\intermediates\transforms\dex\androidTest\debug\folders\1000\10\classes_37590c10439c2b6a14b128606601e81e58590710\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\USUARIO\.android\build-cache\5d05dc23977e109cf368ac1f0b9252f75d5d4cb7\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.0"
+        sha1="ed87ccdcb70c17d71ba4e6e4ac16afa62d3c49fb">
+        <dex dex="D:\DesarrolloApurata\apurata_android\ApurataApplication\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_45b3c3aab47208f772583aee837008c28fc465e6\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\USUARIO\.gradle\caches\modules-2\files-2.1\com.github.bumptech.glide\gifdecoder\4.1.1\df97c1211882e43d08911e0b82eb6e1b25b3d311\gifdecoder-4.1.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.0"
+        sha1="df97c1211882e43d08911e0b82eb6e1b25b3d311">
+        <dex dex="D:\DesarrolloApurata\apurata_android\ApurataApplication\app\build\intermediates\transforms\dex\debug\folders\1000\10\gifdecoder-4.1.1_f40a5c230fa0c13c5e0b471fbb4594e610407734\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\USUARIO\.gradle\caches\modules-2\files-2.1\com.github.bumptech.glide\disklrucache\4.1.1\d02b9bad9380a7f98248e58ec9df65023226259e\disklrucache-4.1.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.0"
+        sha1="d02b9bad9380a7f98248e58ec9df65023226259e">
+        <dex dex="D:\DesarrolloApurata\apurata_android\ApurataApplication\app\build\intermediates\transforms\dex\debug\folders\1000\10\disklrucache-4.1.1_411cf6af1a1b11a313629b014341726e78554584\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\USUARIO\.android\build-cache\bd51c6f52310056fa9a3c9990f8bb67ac5cd72aa\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.0"
+        sha1="364364bf77b4a71afc5930fc3ae57b3f0eea637c">
+        <dex dex="D:\DesarrolloApurata\apurata_android\ApurataApplication\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_d8f9edb5b9a8abc135a34c5b3e40422b9789f4ec\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\USUARIO\.android\build-cache\685d70b9b6a3e3adf4882f06f3dfe22a6c5495de\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.0"
+        sha1="2430e711762a749feb00b3d64858ca4768251b9d">
+        <dex dex="D:\DesarrolloApurata\apurata_android\ApurataApplication\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_4fc8d46e01005016c88b9f8bd0180454c0e2c2db\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\USUARIO\.android\build-cache\456510399866aa5bd4dbfc2ba20ed00d9d9b1a84\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.0"
+        sha1="e5b429c146094a612134910688d169ec08deeefb">
+        <dex dex="D:\DesarrolloApurata\apurata_android\ApurataApplication\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_74a6df01b6c51ad598e02d4c7daf9b49dfe5c3d1\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\USUARIO\.gradle\caches\modules-2\files-2.1\com.github.bumptech.glide\glide\4.1.1\5cf10dddd902443677b1614579f1183f952f3666\glide-4.1.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.0"
+        sha1="5cf10dddd902443677b1614579f1183f952f3666">
+        <dex dex="D:\DesarrolloApurata\apurata_android\ApurataApplication\app\build\intermediates\transforms\dex\debug\folders\1000\10\glide-4.1.1_6e258c7e8cf2fc288f092a583a906973bdf4a604\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\USUARIO\.gradle\caches\modules-2\files-2.1\com.github.bumptech.glide\annotations\4.1.1\e336eaee0493d7a441c8e7adbaf38d1d78e58596\annotations-4.1.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.0"
+        sha1="e336eaee0493d7a441c8e7adbaf38d1d78e58596">
+        <dex dex="D:\DesarrolloApurata\apurata_android\ApurataApplication\app\build\intermediates\transforms\dex\debug\folders\1000\10\annotations-4.1.1_12a97f5c856916b8a2cbd4276591648cf611f272\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\USUARIO\.android\build-cache\ebe9ddbccd4c15252966adcc992f054abd6a0b47\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.0"
+        sha1="3d7ba2eb647e082275b2a65ddcf2233d4c1e3c1a">
+        <dex dex="D:\DesarrolloApurata\apurata_android\ApurataApplication\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_a1a415b2337c8649a4993564982dd9145f330cfd\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\USUARIO\.android\build-cache\8bade5af85603b3788d9934b54987c959bcb45af\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.0"
+        sha1="e1625e48a836779b5fa141d22e5d05563aaccc9a">
+        <dex dex="D:\DesarrolloApurata\apurata_android\ApurataApplication\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_ee49c6b57627d8e1a0c4edb68e0ae7a4ebe83d1a\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\USUARIO\.android\build-cache\746b842a0d3f7ea1dd71642e7692488cd989112a\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.0"
+        sha1="d9ebd18603c0013727799e7ed41bcb42f3df75c0">
+        <dex dex="D:\DesarrolloApurata\apurata_android\ApurataApplication\app\build\intermediates\transforms\dex\androidTest\debug\folders\1000\10\classes_a5717f8fd49ac363260fdc6749d5d79ca722bb8a\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\USUARIO\.android\build-cache\edd75117237441134ea8a9b23ebbf54fb72d0260\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.0"
+        sha1="43e9789bd3240271265ab30ce1be9f224843f5a8">
+        <dex dex="D:\DesarrolloApurata\apurata_android\ApurataApplication\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_76b7333f64ccc4e1f7e5f98a36bbdf939f8f9bc1\classes.dex" />
+    </item>
+
+</items>

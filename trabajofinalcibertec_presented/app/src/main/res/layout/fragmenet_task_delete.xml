@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/txtId"
+            android:text="ID : "
+            android:layout_width="150dp"
+            android:layout_height="match_parent" />
+
+        <EditText
+            android:hint="*************"
+            android:id="@+id/edtId"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginTop="50dp"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/txtTitle"
+            android:text="Title"
+            android:layout_width="150dp"
+            android:layout_height="match_parent" />
+
+        <EditText
+            android:id="@+id/edtTitle"
+            android:hint="*********************"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginTop="100dp"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/txtRemember"
+            android:text="Remember :"
+            android:layout_width="150dp"
+            android:layout_height="match_parent" />
+
+       <Switch
+           android:id="@+id/swRemember"
+           android:layout_width="wrap_content"
+           android:layout_height="match_parent" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginTop="150dp"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/txtDate"
+            android:text="Date"
+            android:layout_width="180dp"
+            android:layout_height="match_parent" />
+
+        <EditText
+            android:id="@+id/edtDate"
+            android:hint="*********************"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginTop="200dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/btnDelete"
+            android:layout_marginLeft="170dp"
+            android:text="Eliminar"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent" />
+
+        <Button
+            android:id="@+id/btnCancel"
+            android:text="Cancelar"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent" />
+
+    </LinearLayout>
+
+</FrameLayout>

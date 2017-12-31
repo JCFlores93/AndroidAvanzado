@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context="com.apurata.prestamos.creditos.Activity.ReturnToWebActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical">
+        <TextView
+            android:id="@+id/txtMainText"
+            android:text="@string/erro404"
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="25dp"
+            android:layout_marginLeft="25dp"
+            android:textSize="18sp"/>
+        <Button
+            android:id="@+id/btnGoToWebPage"
+            android:layout_marginTop="10dp"
+            android:text="Ir a la Web"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/colorAccent"
+            android:textColor="#FFFFFF"
+            android:elevation="2dp"
+            android:padding="10dp"/>
+        <Button
+            android:id="@+id/btnCall"
+            android:layout_marginTop="10dp"
+            android:text="Llamar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/colorAccent"
+            android:textColor="#FFFFFF"
+            android:elevation="2dp"/>
+
+    </LinearLayout>
+
+
+
+</FrameLayout>

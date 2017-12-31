@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+        android:id="@+id/txtEmail"
+        android:text="Ingrese su Email : "
+            android:layout_width="150dp"
+        android:layout_height="match_parent" />
+
+        <EditText
+            android:hint="abcxxxx@xmail.com"
+            android:id="@+id/edtEmail"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginTop="50dp"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/txtPassword"
+            android:text="Ingrese su Password :"
+            android:layout_width="150dp"
+            android:layout_height="match_parent" />
+
+        <EditText
+            android:id="@+id/edtPassword"
+            android:hint="*********************"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginTop="100dp"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/txtName"
+            android:text="Ingrese su Nombre :"
+            android:layout_width="150dp"
+            android:layout_height="match_parent" />
+
+        <EditText
+            android:id="@+id/edtName"
+            android:hint="xyz xyz xyz xyz"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginTop="150dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/btnRegister"
+            android:layout_marginLeft="170dp"
+            android:text="Registrar"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent" />
+
+        <Button
+            android:id="@+id/btnCancel"
+            android:text="Cancelar"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent" />
+
+    </LinearLayout>
+
+
+
+</FrameLayout>

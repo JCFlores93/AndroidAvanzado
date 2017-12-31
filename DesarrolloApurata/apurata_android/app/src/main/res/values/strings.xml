@@ -1,0 +1,56 @@
+<resources>
+    <string name="app_name">Apurata - Préstamos para todos</string>
+    <string name="StringTitleMainView">Validación</string>
+    <string name="String1MainView">Verificación de tu DNI</string>
+    <string name="String2MainView">Sube una foto de la parte frontal de tu DNI.</string>
+    <string name="String3MainView">NOTA:NO ACEPTAMOS COPIAS!</string>
+    <string name="String4MainView">(Si estás tomándole foto a una copia en papel de la identificación, no será aceptada).</string>
+    <string name="takePicture">Tomar Foto</string>
+    <string name="String5MainView">Verificación de Aceptación de Condiciones</string>
+    <string name="String6MainView">Sube una foto tuya sosteniendo un papel firmado por ti que diga : </string>
+    <string name="String7MainView"> \"Acepto mi préstamo Apurata\". </string>
+    <string name="String8MainView">Dónde te encuentras </string>
+    <string name="String9MainView">Número de cuenta</string>
+    <string name="String10MainView">Proporciona el número de cuenta </string>
+    <string name="String11MainView">DEL BANCO SELECCIONADO </string>
+    <string name="String12MainView"> y depositaremos tu préstamo de en 29 minutos.</string>
+    <string name="String13MainView">Código de verificación</string>
+    <string name="String14MainView">Ingrese </string>
+    <string name="String15MainView"> solamente el código de verificación </string>
+    <string name="String16MainView"> que se le ha enviado por mensaje de texto.</string>
+    <string name="start">Estoy listo para recibir mi préstamo</string>
+    <string name="labelFormHint4">Ingrese el número de su cuenta</string>
+
+    <string name="facebook_app_id">543714645829029</string>
+
+    <string name="error500">¡Ha ocurrido un error en la página!Agradeceríamos que se comunique con nosotros para solucionar este incoveniente cuanto antes. Lo sentimos por la molestia causada.</string>
+    <string name="telephoneAPURATA">965-085-398</string>
+    <string name="erro404">Esta aplicación es parte de una solicitud de crédito APURATA, debe registrarse primero en la página web.</string>
+    <string name="errorMessageNull">Usted no tiene ninguna solicitud activa.Para solicitar un crédito diríjase a nuestra web</string>
+    <string name="checkStatus">Para ver el estado de su solicitud diríjase a nuestra web</string>
+    <string name="messageLoginView1">* Tiene que ser tu cuenta de fb.</string>
+    <string name="messageLoginView2">* No publicamos nada en tu muro.</string>
+    <string name="messageLoginView3">* No contactamos a tus amigos.</string>
+    <string name="userMenu">Gracias por descargar la aplicación de APURATA.</string>
+    <string name="newApplication">Nueva Aplicación</string>
+    <string name="continueApplication">Continuar Aplicación</string>
+    <string name="contactUs">Contacte con nosotros</string>
+    <string name="onSuccessMessage">Conexión exitosa : El sistema se iniciará en breve.</string>
+    <string name="onCancelMessage">Ingrese con la cuenta de Facebook con la que se registró en www.apurata.com</string>
+    <string name="error_no_camera">No se encontró la cámara</string>
+    <string name="mainTitle2">__</string>
+    <string name="mainTitle1">Accede a mejores tasas y se un Cliente VIP dejando instalada esta aplicación y pagando tu préstamo a tiempo</string>
+    <string name="thirdParagraphOnLoginActivity">Continúa tu solicitud oprimiendo el botón azul de Facebook.</string>
+    <string name="fourthParagraphOnLoginActivity">Tu privacidad y confianza es ultra importante para nososotros. No vamos a compartir tu información, no contactaremos a tus amigos ni postearemos en tu muro.</string>
+    <string-array name="valuesListSpinner">
+        <item>Seleccione una opción</item>
+        <item>Mi casa</item>
+        <item>Mi trabajo</item>
+        <item>Camino a mi casa</item>
+        <item>Camino a mi trabajo</item>
+        <item>Otro sitio</item>
+
+    </string-array>
+
+
+</resources>

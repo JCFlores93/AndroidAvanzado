@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/parentView"
+    android:layout_gravity="center">
+
+    <TextView
+        android:id="@+id/txtPrueba"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <LinearLayout
+        android:id="@+id/lnrGoToWebNotRegistered"
+        android:gravity="center"
+        android:visibility="gone"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <TextView
+
+            android:id="@+id/txtMessageNull"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:visibility="gone"
+            android:layout_gravity="center"
+            android:text="@string/errorMessageNull"
+            android:textSize="18sp"/>
+
+        <Button
+            android:text="Ir a la web"
+            android:id="@+id/btnGoToApurataCom"
+            android:layout_marginTop="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:visibility="gone"/>
+
+    </LinearLayout>
+
+    <android.support.percent.PercentRelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        >
+        <ImageView
+            android:id="@+id/imageAlert"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:src="@mipmap/ic_warning" />
+
+        <TextView
+            android:id="@+id/txtAlert"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Para continuar debe :
+Habilitar el permiso del GPS.
+Encender el GPS."
+            android:layout_below="@+id/imageAlert"
+
+            android:paddingRight="40dp"
+            android:paddingLeft="20dp"
+            app:layout_marginTopPercent="8%"
+            />
+
+    </android.support.percent.PercentRelativeLayout>
+
+    <ProgressBar
+
+        android:id="@+id/progressBarLogin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_gravity="center"
+        />
+
+    <android.support.percent.PercentRelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <com.facebook.login.widget.LoginButton
+            android:id="@+id/login_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:textAlignment="center"
+            app:layout_marginTopPercent="10%"
+            />
+
+        <TextView
+            android:id="@+id/messageLoginView1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:text="@string/messageLoginView1"
+            android:textAlignment="center"
+            app:layout_marginTopPercent="15%"
+            android:layout_below="@+id/login_button"
+            android:visibility="gone"
+            android:textStyle="bold"
+            android:textSize="20dp"/>
+
+        <TextView
+            android:id="@+id/messageLoginView2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:text="@string/messageLoginView2"
+            android:textAlignment="center"
+            app:layout_marginTopPercent="10%"
+            android:layout_below="@+id/messageLoginView1"
+            android:visibility="gone"
+            android:textStyle="bold"
+            android:textSize="20dp"/>
+
+        <TextView
+            android:id="@+id/messageLoginView3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:padding="5dp"
+            android:text="@string/messageLoginView3"
+            android:textAlignment="center"
+            app:layout_marginTopPercent="10%"
+            android:layout_below="@+id/messageLoginView2"
+            android:visibility="gone"
+            android:textStyle="bold"
+            android:textSize="20dp"/>
+
+
+
+
+    </android.support.percent.PercentRelativeLayout>
+</FrameLayout>

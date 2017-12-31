@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Clean Architecture</string>
+    
+    <string name="text_email">Email</string>
+    <string name="text_phone">Phone</string>
+    
+    <string name="exception_message_generic">An error has occurred</string>
+    <string name="exception_message_no_connection">No internet connection</string>
+
+</resources>

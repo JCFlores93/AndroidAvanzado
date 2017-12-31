@@ -1,0 +1,73 @@
+{
+  "project_info": {
+    "project_number": "439305654783",
+    "firebase_url": "https://apurata-c824d.firebaseio.com",
+    "project_id": "apurata-c824d",
+    "storage_bucket": "apurata-c824d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:439305654783:android:dfd20ce443a5bdf8",
+        "android_client_info": {
+          "package_name": "com.apurata.prestamos.prestamos.creditos"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "439305654783-gbg29164a9t48e7289o1asq1p6mm3pvi.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCkRxtH1XYUTZwlMeWfekzMzsSoya35aBg"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:439305654783:android:f22b71069375b255",
+        "android_client_info": {
+          "package_name": "com.apurata.prestamos.prestamos.creditos.debug"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "439305654783-gbg29164a9t48e7289o1asq1p6mm3pvi.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCkRxtH1XYUTZwlMeWfekzMzsSoya35aBg"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

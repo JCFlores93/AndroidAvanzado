@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.apurata.prestamos.creditos.Activity.UserMenuActivity">
+
+    <android.support.percent.PercentRelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/txtMainText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/userMenu"
+            app:layout_marginTopPercent="20%"
+            app:layout_marginLeftPercent="5%"
+            />
+        <Button
+
+            android:id="@+id/btnNewApplication"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:layout_marginTopPercent="10%"
+            android:layout_below="@id/txtMainText"
+            android:text="@string/newApplication"
+            android:elevation="2dp"
+            android:textColor="#FFFFFF"
+            android:background="@color/colorPrimary"
+            app:layout_marginLeftPercent="5%"
+            app:layout_marginRightPercent="5%"
+            />
+        <Button
+            android:id="@+id/btnContinueApplication"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:layout_marginTopPercent="1%"
+            android:layout_below="@+id/btnNewApplication"
+            android:text="@string/continueApplication"
+            android:elevation="2dp"
+            android:textColor="#FFFFFF"
+            android:background="@color/colorPrimary"
+            app:layout_marginLeftPercent="5%"
+            app:layout_marginRightPercent="5%"/>
+        <Button
+            android:id="@+id/btnContactUs"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:layout_marginTopPercent="1%"
+            android:layout_below="@id/btnContinueApplication"
+            android:text="@string/contactUs"
+            android:elevation="2dp"
+            android:textColor="#FFFFFF"
+            android:background="@color/colorPrimary"
+            app:layout_marginLeftPercent="5%"
+            app:layout_marginRightPercent="5%"/>
+    </android.support.percent.PercentRelativeLayout>
+
+
+</FrameLayout>

@@ -1,0 +1,250 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.apurata.prestamos.creditos.Activity.MainActivity"
+    android:id="@+id/parentMainActivity">
+    <ScrollView
+        android:id="@+id/scrollView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:animateLayoutChanges="true"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:weightSum="1">
+
+
+            <TextView
+                android:padding="20dp"
+                android:id="@+id/txtTitle1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:focusable="true"
+                android:focusableInTouchMode="true"
+                android:textStyle="bold"
+                android:textSize="20sp"/>
+            <TextView
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                android:id="@+id/txtText1"
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <Button
+                android:id="@+id/btnGetDni"
+                android:padding="20dp"
+                android:drawableLeft="@drawable/camera_24"
+                style="@style/buttonStyle"
+                android:text="@string/takePicture"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <ImageView
+                android:id="@+id/imgViewGetDni"
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                android:layout_gravity="center"/>
+
+            <TextView
+                android:id="@+id/txtTitle2"
+                android:padding="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:textSize="20sp">
+            <requestFocus/>
+            </TextView>
+
+            <TextView
+
+                android:id="@+id/txtText2"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:focusable="true"
+                android:focusableInTouchMode="true"	/>
+
+
+            <Button
+                android:id="@+id/btnGetSign"
+                android:padding="20dp"
+                android:drawableLeft="@drawable/camera_24"
+                style="@style/buttonStyle"
+                android:text="@string/takePicture"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+
+            <ImageView
+                android:id="@+id/imgViewGetSign"
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                android:layout_gravity="center"/>
+
+            <TextView
+                android:focusable="true"
+                android:focusableInTouchMode="true"
+                android:id="@+id/txtTitle3"
+                android:padding="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:textSize="20sp"/>
+
+            <Spinner
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                android:id="@+id/listOptions"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:id="@+id/txtTitle4"
+                android:padding="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:textSize="20sp"/>
+
+            <TextView
+                android:id="@+id/txtText3"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <android.support.design.widget.TextInputLayout
+                android:id="@+id/lblAccountNumber"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="20dp"
+                >
+            <EditText
+
+                android:hint="@string/labelFormHint4"
+                android:inputType="number"
+                android:id="@+id/edtAccountNumber"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="30dp"/>
+            </android.support.design.widget.TextInputLayout>
+
+
+            <TextView
+                android:id="@+id/txtTitle5"
+                android:padding="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:textSize="20sp"/>
+
+            <TextView
+                android:id="@+id/txtText4"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+
+            <android.support.design.widget.TextInputLayout
+                android:id="@+id/lblVerificationCode"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="20dp"
+                >
+            <EditText
+                android:maxLength="6"
+                android:id="@+id/edtVerificationCode"
+                android:hint="Ingrese el código PIN "
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.09"
+                android:layout_marginRight="30dp"
+                />
+            </android.support.design.widget.TextInputLayout>
+
+            <Button
+                android:id="@+id/btnStart"
+                style="@style/buttonStyle"
+                android:text="@string/start"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+
+        </LinearLayout>
+</ScrollView>
+
+
+    <android.support.percent.PercentRelativeLayout
+        android:id="@+id/linearlLoading"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/txtLoading"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Cargando"
+            android:textAlignment="center"
+            android:textSize="25dp"
+            android:textStyle="bold"
+            app:layout_marginLeftPercent="21%"
+            app:layout_marginTopPercent="39%" />
+
+        <com.wang.avi.AVLoadingIndicatorView
+            android:id="@+id/avi"
+            style="@style/AVLoadingIndicatorView.Large"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:indicatorColor="@color/colorPrimaryDefault"
+            app:indicatorName="PacmanIndicator"
+
+            app:layout_marginLeftPercent="53%"
+            app:layout_marginTopPercent="34%" />
+
+    </android.support.percent.PercentRelativeLayout>
+
+    <android.support.percent.PercentRelativeLayout
+        android:id="@+id/lnrGoToWebNotRegistered"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical"
+        >
+        <TextView
+            android:id="@+id/txtMessageNull"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            app:layout_marginLeftPercent="8%"
+            app:layout_marginRightPercent="8%"
+            android:text="@string/errorMessageNull"
+            android:textSize="18sp"
+            android:visibility="gone"
+            />
+        <Button
+            android:id="@+id/btnGoToApurataCom"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/txtMessageNull"
+            android:layout_centerHorizontal="true"
+            android:text="Ir a la web"
+            android:visibility="gone"
+            android:elevation="2dp"
+            android:padding="8dp"
+            android:textColor="@color/colorPrimaryColor"
+            android:background="@color/colorPrimary"
+            app:layout_marginTopPercent= "5%"
+            />
+    </android.support.percent.PercentRelativeLayout>
+</FrameLayout>

@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "D:\\DesarrolloApurata\\apurata_android\\ApurataApplication\\app\\build\\intermediates\\res\\merged\\TestBuild\\mipmap-xxxhdpi\\ic_camera_24.png",
+        "source": "D:\\DesarrolloApurata\\apurata_android\\ApurataApplication\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_camera_24.png"
+    },
+    {
+        "merged": "D:\\DesarrolloApurata\\apurata_android\\ApurataApplication\\app\\build\\intermediates\\res\\merged\\TestBuild\\mipmap-xxxhdpi\\apurataimg.png",
+        "source": "D:\\DesarrolloApurata\\apurata_android\\ApurataApplication\\app\\src\\main\\res\\mipmap-xxxhdpi\\apurataimg.png"
+    },
+    {
+        "merged": "D:\\DesarrolloApurata\\apurata_android\\ApurataApplication\\app\\build\\intermediates\\res\\merged\\TestBuild\\mipmap-xxxhdpi\\ic_warning.png",
+        "source": "D:\\DesarrolloApurata\\apurata_android\\ApurataApplication\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_warning.png"
+    },
+    {
+        "merged": "D:\\DesarrolloApurata\\apurata_android\\ApurataApplication\\app\\build\\intermediates\\res\\merged\\TestBuild\\mipmap-xxxhdpi\\ic_warning_icon.png",
+        "source": "D:\\DesarrolloApurata\\apurata_android\\ApurataApplication\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_warning_icon.png"
+    }
+]
